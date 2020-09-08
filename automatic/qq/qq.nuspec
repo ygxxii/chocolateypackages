@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>qq</id>
+    <id>tencentqq</id>
     <version>9.3.7.27301</version>
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
     <owners>ygxxii</owners>
