@@ -8,7 +8,7 @@
     <title>QQ</title>
     <authors>Tencent</authors>
     <projectUrl>https://im.qq.com/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/qq.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/ygxxii/chocolateypackages/c53b3cea14a02f569fea0529f8661ab994b8524d/icons/Tencent_QQ.svg</iconUrl>
     <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
     <licenseUrl>http://ti.qq.com/agreement/index.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -21,7 +21,7 @@
 
 This package installs/upgrades the **Tencent QQ** (腾讯QQ).
 
-**Tencent QQ** displays Chinese Language only. For other languages, please switch to **Tentcent QQ International** (腾讯QQ国际版).
+**Tencent QQ** displays Simplified Chinese only. For other languages, please switch to **Tentcent QQ International** (腾讯QQ国际版).
 
 ### What's installed
 
@@ -43,6 +43,9 @@ The Script `chocolateyuninstall.ps1` removes Major **Tencent QQ** program only.
 **Tencent QQMail Plugin** can't be removed automatically because the uninstaller is not exist. You can remove this manually in `Programs and Features` anytime.
 
 </description>
+  <releaseNotes>https://im.qq.com/qq/update-info.shtml</releaseNotes>
+  <dependencies>
+  </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
