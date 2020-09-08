@@ -1,17 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$ahkFile = Join-Path $toolsDir "TencentQQUninstall.ahk"
-$ahkRun = "$Env:Temp\$(Get-Random).ahk"
+$ahkFile = Join-Path $toolsDir 'chocolateyuninstall.ahk'
+Write-Host "AutoHotKey Script: " $ahkFile
 
 try {
-  Copy-Item "$ahkFile" "$ahkRun" -Force
   $ahkProc = Start-Process -FilePath 'AutoHotKey' `
-    -ArgumentList "`"$ahkRun`"" `
+    -ArgumentList "`"$ahkFile`"" `
     -PassThru
-  Write-Debug "$ahkRun start time:`t$($ahkProc.StartTime.ToShortTimeString())"
-  Write-Debug "$ahkRun process ID:`t$($ahkProc.Id)"
-  Remove-Item "$ahkRun" -Force
+  Write-Host "$ahkRun start time:`t$($ahkProc.StartTime.ToShortTimeString())"
+  Write-Host "$ahkRun process ID:`t$($ahkProc.Id)"
+  # AutoHotkey.exe $ahkFile
+  # Remove-Item "$ahkRun" -Force
 }
 catch {
 }
@@ -45,6 +45,6 @@ if ($key.Count -eq 1) {
 } elseif ($key.Count -gt 1) {
   Write-Warning "$($key.Count) matches found!"
   Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
-  Write-Warning "Please alert package maintainer the following keys were matched:"
-  $key | % {Write-Warning "- $($_.DisplayName)"}
+  Write-Host "Please alert package maintainer the following keys were matched:"
+  $key | % {Write-Host "- $($_.DisplayName)"}
 }
