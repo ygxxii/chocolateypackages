@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tencentdocs</id>
+    <version>1.0.1.366</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>Tencent Docs</title>
+    <authors>Tencent</authors>
+    <projectUrl>https://docs.qq.com/</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tencentdocs.png</iconUrl>-->
+    <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
+    <licenseUrl>https://docs.qq.com/doc/DZFVpTGVZWHpIYnJo?pub=1</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>tencent docs</tags>
+    <summary>Online documents for collaboration</summary>
+    <description>
+### Note
+
+This package installs/upgrades the **腾讯文档** (Tencent Docs).
+
+**腾讯文档** displays Simplified Chinese only.
+    </description>
+    <releaseNotes>https://docs.qq.com/doc/BqI21X2yZIht1Wa5TS2EGjbB05QQLU3t4SFA0D4QyU1D8UAQ0IQmKC2Cjyb92Epx2w1QB96n17FEoB312GIY0?pub=1</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" version="1.1.33.02" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
