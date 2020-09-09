@@ -1,4 +1,6 @@
-winTitle = ahk_class #32770 ahk_exe MsiExec.exe
+﻿; The encoding of this file is "UTF-8 with BOM". Please do not change !
+
+winTitle = 腾讯QQ卸载 ahk_class #32770 ahk_exe MsiExec.exe
 WinWait %winTitle%, , 60
 
 if (hWnd := WinExist(winTitle))
