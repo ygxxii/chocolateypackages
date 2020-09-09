@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dingtalk</id>
+    <version>5.1.21.19</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>DingTalk</title>
+    <authors>ygxxii</authors>
+    <projectUrl>https://www.dingtalk.com/en</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/dingtalk.png</iconUrl>-->
+    <copyright>Copyright Notice © 1999-2020 Alibaba Group Holding Limited and/or its affiliates and licensors. All rights reserved.</copyright>
+    <licenseUrl>https://page.dingtalk.com/wow/dingtalk/act/service-en-lite</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>dingtalk chat collaboration</tags>
+    <summary>DingTalk -- Make Work and Study Easy</summary>
+    <description>
+### Note
+
+This package installs/upgrades the **DingTalk** (钉钉).
+    </description>
+    <releaseNotes>https://notes.dingtalk.com/p/Y7kmby3lP40KXLq2/docs/Y7kmbbn811kj3mLq</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" version="1.1.33.02" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
