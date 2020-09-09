@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tencentqq</id>
-    <version>9.3.7.27301</version>
+    <version>9.3.8.27381</version>
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
     <owners>ygxxii</owners>
     <title>QQ</title>
