@@ -8,7 +8,7 @@
     <title>Tencent Docs</title>
     <authors>Tencent</authors>
     <projectUrl>https://docs.qq.com/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tencentdocs.png</iconUrl>-->
+    <iconUrl>https://rawcdn.githack.com/ygxxii/chocolateypackages/b325728e98451098281c3dec2d5ff347bed1bbc3/icons/Tencent_Docs.ico</iconUrl>
     <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
     <licenseUrl>https://docs.qq.com/doc/DZFVpTGVZWHpIYnJo?pub=1</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
