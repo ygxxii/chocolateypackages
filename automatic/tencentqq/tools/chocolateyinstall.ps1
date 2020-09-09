@@ -1,5 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $url        = 'https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe'
+$url64      = $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

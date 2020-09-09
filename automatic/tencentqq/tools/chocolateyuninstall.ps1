@@ -8,10 +8,9 @@ try {
   $ahkProc = Start-Process -FilePath 'AutoHotKey' `
     -ArgumentList "`"$ahkFile`"" `
     -PassThru
-  Write-Host "$ahkRun start time:`t$($ahkProc.StartTime.ToShortTimeString())"
-  Write-Host "$ahkRun process ID:`t$($ahkProc.Id)"
+  Write-Debug "$ahkRun start time:`t$($ahkProc.StartTime.ToShortTimeString())"
+  Write-Debug "$ahkRun process ID:`t$($ahkProc.Id)"
   # AutoHotkey.exe $ahkFile
-  # Remove-Item "$ahkRun" -Force
 }
 catch {
 }
