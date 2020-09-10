@@ -43,7 +43,7 @@ The Script `chocolateyuninstall.ps1` removes Major **Tencent QQ** program only.
 **Tencent QQMail Plugin** can't be removed automatically because the uninstaller is not exist. You can remove this manually in `Programs and Features` anytime.
 
 </description>
-  <releaseNotes>https://im.qq.com/qq/update-info.shtml</releaseNotes>
+  <releaseNotes>https://im.qq.com/pcqq/logs</releaseNotes>
   <dependencies>
     <dependency id="autohotkey.portable" version="1.1.33.02" />
   </dependencies>
