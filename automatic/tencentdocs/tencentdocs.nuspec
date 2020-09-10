@@ -12,14 +12,13 @@
     <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
     <licenseUrl>https://docs.qq.com/doc/DZFVpTGVZWHpIYnJo?pub=1</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://kf.qq.com/product/txwd.html</docsUrl>
     <tags>tencent docs collaboration</tags>
     <summary>Online documents for collaboration</summary>
     <description>
-### Note
+This package installs/upgrades the **腾讯文档** (Tencent Docs). **腾讯文档** displays Simplified Chinese only.
 
-This package installs/upgrades the **腾讯文档** (Tencent Docs).
-
-**腾讯文档** displays Simplified Chinese only.
+This software (**腾讯文档**) may add startup entry, you can disable it manually. （**腾讯文档** 会添加开机启动项，请自行手动关闭。)
     </description>
     <releaseNotes>https://docs.qq.com/doc/BqI21X2yZIht1Wa5TS2EGjbB05QQLU3t4SFA0D4QyU1D8UAQ0IQmKC2Cjyb92Epx2w1QB96n17FEoB312GIY0?pub=1</releaseNotes>
     <dependencies>
