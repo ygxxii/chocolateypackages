@@ -45,7 +45,7 @@ The Script `chocolateyuninstall.ps1` removes Major **Tencent QQ** program only.
 </description>
   <releaseNotes>https://im.qq.com/pcqq/logs</releaseNotes>
   <dependencies>
-    <dependency id="autohotkey.portable" version="1.1.33.02" />
+    <dependency id="autohotkey.portable" />
   </dependencies>
   </metadata>
   <files>
