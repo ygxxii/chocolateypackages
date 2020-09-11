@@ -8,7 +8,7 @@
     <title>DingTalk</title>
     <authors>Alibaba Group</authors>
     <projectUrl>https://www.dingtalk.com/en</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/ygxxii/chocolateypackages/eaa72976502c70ac23cae52f372687ed638c3503/icons/Alibaba_DingTalk.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/dingtalk.svg</iconUrl>
     <copyright>Copyright Notice © 1999-2020 Alibaba Group Holding Limited and/or its affiliates and licensors. All rights reserved.</copyright>
     <licenseUrl>https://page.dingtalk.com/wow/dingtalk/act/service-en-lite</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
