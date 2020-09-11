@@ -15,7 +15,9 @@
     <tags>netease music player</tags>
     <summary>NetEase Cloud Music -- To See the Power of Music</summary>
     <description>
-This package installs/upgrades the **NetEase Cloud Music** (网易云音乐).
+This package installs/upgrades the **NetEase Cloud Music** (网易云音乐).**网易云音乐** displays Simplified Chinese only.
+
+This software (**网易云音乐**) may add startup entry, you can disable it manually. （**网易云音乐** 会添加开机启动项，请自行手动关闭。)
     </description>
     <releaseNotes />
   </metadata>
