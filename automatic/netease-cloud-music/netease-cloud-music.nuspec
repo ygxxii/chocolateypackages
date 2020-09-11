@@ -6,20 +6,21 @@
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
     <owners>ygxxii</owners>
     <title>NetEase Cloud Music</title>
-    <authors>NetEase, Inc</authors>
+    <authors>NetEase&#44; Inc</authors>
     <projectUrl>https://music.163.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/netease-cloud-music.png</iconUrl>
     <copyright>Copyright © 1997 - 2020 NetEase, Inc. All Rights Reserved.</copyright>
     <licenseUrl>https://st.music.163.com/official-terms/service</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>netease music player</tags>
+    <docsUrl>https://music.163.com/#/topic?id=17489050</docsUrl>
+    <tags>music player</tags>
     <summary>NetEase Cloud Music -- To See the Power of Music</summary>
     <description>
 This package installs/upgrades the **NetEase Cloud Music** (网易云音乐).**网易云音乐** displays Simplified Chinese only.
 
 This software (**网易云音乐**) may add startup entry, you can disable it manually. （**网易云音乐** 会添加开机启动项，请自行手动关闭。)
     </description>
-    <releaseNotes />
+    <releaseNotes>https://music.163.com/#/pcupdatelog</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
