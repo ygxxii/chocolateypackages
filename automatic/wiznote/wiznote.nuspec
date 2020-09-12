@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wiznote</id>
+    <version>4.13.13</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>WizNote</title>
+    <authors>Beijing Wozhi Technology Co. Ltd.</authors>
+    <projectUrl>https://www.wiz.cn/downloads-windows.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/wiznote.png</iconUrl>
+    <copyright>Copyright © 2001 - 2020 Beijing Wozhi Technology Co. Ltd.</copyright>
+    <licenseUrl>https://www.wiz.cn/share-termsofuse.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.wiz.cn/support.html</docsUrl>
+    <tags>wiznote notes markdown</tags>
+    <summary>A cloud based free app that helps you and your team manage notes and knowledge efficiently across all devices.</summary>
+    <description>
+WizNote is a cloud based free app that helps you and your team manage notes and knowledge efficiently across all devices. WizNote not only can help you to remember your personal life, but also can help your team collaberate and communicate effectively. All notes are searchable and viewed anytime.
+
+### Key features
+
+##### Rich way to record and collect information
+
+- A note can contain text, pictures, documents, checklist, audio record
+- You can collect notes from website, wechat and email
+
+##### Efficient Organization
+
+- Orgonize notes with flexible muilti-level folder
+
+##### Convenient, fast synchronization
+
+- All your notes are syncronized instantly.
+- Offline notes are supported, you can specify which folder to be availalble offline.
+
+##### Sharing and Collaboration
+
+- Share notes within team members
+- Collaberate simontiniously to edit notes
+- Flexible notification will remind your team member when a team note is updated
+- You can push notifications to specific team members in a sociable way
+
+About WizNote
+Weibo：http://weibo.com/wiz2011
+Wechat: wiznote
+
+---
+
+For Windows XP, please install the old version(`4.11.25`). Windows XP 可使用`4.11.25`版本:
+
+```
+choco install wiznote --version=4.11.25
+```
+
+For old plugins, please install the old version(`4.4.9`). 要使用仅支持 4.4 及以下版本的插件，可使用`4.4.9`版本:
+
+```
+choco install wiznote --version=4.4.9
+```
+
+    </description>
+    <releaseNotes>https://www.wiz.cn/changelog2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
