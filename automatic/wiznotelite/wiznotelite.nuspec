@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wiznotelite</id>
+    <version>1.5.0</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>WizNote Lite</title>
+    <authors>Beijing Wozhi Technology Co. Ltd.</authors>
+    <projectUrl>https://www.wiz.cn/wiznote-lite</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/wiznotelite.png</iconUrl>
+    <copyright>Copyright © 2001 - 2020 Beijing Wozhi Technology Co. Ltd.</copyright>
+    <licenseUrl>https://github.com/WizTeam/WizNoteLite/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/WizTeam/WizNoteLite</projectSourceUrl>
+    <docsUrl>https://www.wiz.cn/support.html</docsUrl>
+    <tags>wiznote notes markdown</tags>
+    <summary>Live Preview Markdown Editor</summary>
+    <description>
+Focus on Editing, remove All Other Unnecessary Distractions.
+
+### Install
+
+You can force x86 (32bit) installation on 64 bit systems:
+
+```
+choco install wiznotelite --x86
+```
+
+### Features
+
+#### Live Preview Mode
+
+No need to switch to preview mode or split the screen. What you input is what you mean.
+
+#### Various Syntax Support
+
+Apply rich styles on text, drag and drop an image, or insert a table. You could also draw diagrams such as Gutt Diagram or Flow Chart.
+
+#### Offline or Sync, Your Choice
+
+The data saved in a local folder. After signing in with your WizNote account, all notes will upload. If you have a private server, switch to it.
+    </description>
+    <releaseNotes>https://www.wiz.cn/lite-release-notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
