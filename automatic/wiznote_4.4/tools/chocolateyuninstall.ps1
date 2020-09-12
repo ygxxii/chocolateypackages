@@ -9,7 +9,7 @@ $ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'WizNote*'
+  softwareName  = "'WizNote ?.*'"
   fileType      = 'exe'
   silentArgs   = '/SILENT'
   validExitCodes= @(0)
@@ -39,7 +39,7 @@ if ($key.Count -eq 1) {
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  softwareName   = '为知笔记*'
+  softwareName   = "'为知笔记 ?.*'"
   fileType       = 'exe'
   silentArgs     = '/SILENT'
   validExitCodes = @(0)
