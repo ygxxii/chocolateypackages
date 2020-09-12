@@ -1,4 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'
+
+$osInfo = Get-WmiObject Win32_OperatingSystem | Select-Object Version, ProductType, Caption, OperatingSystemSKU, BuildNumber
+
+Write-host "Detected:  $($osInfo.Caption)" -ForegroundColor Cyan
+
+$osInfo.Version = [version]$osInfo.Version
+if ($osInfo.Version -lt [version]'6.0') {
+  Throw 'WizNote 4.11+ requires Windows Vista or later.'
+}
+
 $url        = 'http://url.wiz.cn/u/windows'
 
 $packageArgs = @{
