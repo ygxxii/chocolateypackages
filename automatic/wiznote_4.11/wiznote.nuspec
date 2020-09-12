@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wiznote</id>
+    <version>4.11.25</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>WizNote</title>
+    <authors>Beijing Wozhi Technology Co. Ltd.</authors>
+    <projectUrl>https://www.wiz.cn/downloads-windows.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/wiznote.png</iconUrl>
+    <copyright>Copyright © 2001 - 2020 Beijing Wozhi Technology Co. Ltd.</copyright>
+    <licenseUrl>https://www.wiz.cn/share-termsofuse.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.wiz.cn/support.html</docsUrl>
+    <tags>wiznote notes markdown</tags>
+    <summary>A cloud based free app that helps you and your team manage notes and knowledge efficiently across all devices.</summary>
+    <description>
+WizNote is a cloud based free app that helps you and your team manage notes and knowledge efficiently across all devices. WizNote not only can help you to remember your personal life, but also can help your team collaberate and communicate effectively. All notes are searchable and viewed anytime.
+
+This is an old version of WizNote, and this is the last version that support Windows XP.
+
+新版的**为知笔记**不再支持 Windows XP，此版本(`4.11`)是支持 Windows XP 的最后一个版本，详情请见：[WizNote \| 为知笔记 Windows 版](https://www.wiz.cn/downloads-windows.html)。
+    </description>
+    <releaseNotes>https://www.wiz.cn/changelog2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
