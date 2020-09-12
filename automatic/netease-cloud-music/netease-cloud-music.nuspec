@@ -6,7 +6,7 @@
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
     <owners>ygxxii</owners>
     <title>NetEase Cloud Music</title>
-    <authors>NetEase&#44; Inc</authors>
+    <authors>NetEase Inc</authors>
     <projectUrl>https://music.163.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/netease-cloud-music.png</iconUrl>
     <copyright>Copyright © 1997 - 2020 NetEase, Inc. All Rights Reserved.</copyright>
