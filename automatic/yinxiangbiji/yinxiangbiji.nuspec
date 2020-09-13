@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>yinxiangbiji</id>
+    <version>6.21.9.2217</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>Yinxiang Biji</title>
+    <authors>Beijing Yinxiang Biji Technologies Co. Ltd</authors>
+    <projectUrl>https://www.yinxiang.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/yinxiangbiji.png</iconUrl>
+    <copyright>Copyright 2020 Evernote China. All Rights Reserved.</copyright>
+    <licenseUrl>https://www.yinxiang.com/legal/tos/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.yinxiang.com/help/</docsUrl>
+    <tags>yinxiang evernote notes</tags>
+    <summary>to be your second brain</summary>
+    <description>
+This package installs/upgrades the **Yinxiang Biji** (印象笔记 / Evernote China).
+
+### Evernote / Yinxiangbiji Coexist
+
+1. If **Evernote** is already installed, Uninstall **Evernote**
+2. Install **Yinxiangbiji**
+3. Install **Evernote**
+
+---
+
+如果要同时安装**Evernote**和**印象笔记**，请按照以下步骤：
+
+1. 如果已安装**Evernote**，请先卸载**Evernote**
+2. 安装**印象笔记**
+3. （重新）安装**Evernote**
+    </description>
+    <releaseNotes>https://www.yinxiang.com/new/hc/articles/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0-windows-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
