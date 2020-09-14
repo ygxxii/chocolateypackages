@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tencentmeeting</id>
+    <version>1.9.0.448</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>Tencent Meeting</title>
+    <authors>Tencent</authors>
+    <projectUrl>https://meeting.tencent.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/tencentmeeting.png</iconUrl>
+    <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
+    <licenseUrl>https://meeting.tencent.com/declare.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://meeting.tencent.com/support.html</docsUrl>
+    <tags>tencent video web conference conferencing online meeting</tags>
+    <summary>Boundless Collaboration</summary>
+    <description>
+This package installs/upgrades the **腾讯会议** (Tencent Meeting).
+
+**腾讯会议** displays Simplified Chinese only. For other languages, please switch to **VooV Meeting**.
+    </description>
+    <releaseNotes>https://meeting.tencent.com/new-features.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
