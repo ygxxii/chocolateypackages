@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wecom</id>
+    <version>3.0.30.2006</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>WeCom</title>
+    <authors>Tencent</authors>
+    <projectUrl>https://work.weixin.qq.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/wecom.png</iconUrl>
+    <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
+    <licenseUrl>https://work.weixin.qq.com/nl/service_agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://work.weixin.qq.com/help</docsUrl>
+    <tags>wecom wechat tencent collaboration chat wxwork</tags>
+    <summary>work chat and office tool</summary>
+    <description>
+This package installs/upgrades the **企业微信** (WeCom / WXWork).
+
+**WeCom** is a business communication and office collaboration tool developed by Tencent WeChat Team. WeCom provides the familiar communication experience as WeChat and connects with WeChat in an all-round manner. It also offers productivity tools such as Event, Meeting, WeDoc and WeDrive, and flexible OA apps for effective business communication and management.
+    </description>
+    <releaseNotes>https://work.weixin.qq.com/wework_admin/intro_list</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
