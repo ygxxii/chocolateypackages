@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sogoupinyin</id>
+    <version>9.8.0.3746</version>
+    <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
+    <owners>ygxxii</owners>
+    <title>Sogou Pinyin</title>
+    <authors>Sogou.com Inc</authors>
+    <projectUrl>https://pinyin.sogou.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/sogoupinyin.png</iconUrl>
+    <copyright>© 2020 SOGOU.COM</copyright>
+    <licenseUrl>https://pinyin.sogou.com/help.php?list=9&#38;q=1&#38;from=install&#38;p=terms&#38;f=about</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://pinyin.sogou.com/help.php</docsUrl>
+    <tags>pinyin input</tags>
+    <summary>a Chinese Pinyin input method</summary>
+    <description>
+This package installs/upgrades the **搜狗拼音输入法** (Sogou Pinyin). **搜狗拼音输入法** displays Simplified Chinese only.
+
+### Reinstall Sogou Pinyin
+
+After **Sogou Pinyin** uninstalled, you need to restart the PC to reinstall **Sogou Pinyin**. 卸载**搜狗拼音输入法**后，需要重启后才可以重新安装。
+    </description>
+    <releaseNotes>https://pinyin.sogou.com/changelog.php</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
