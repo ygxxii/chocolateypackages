@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nutstore</id>
-    <version>5.1.8</version>
+    <version>5.2.1</version>
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
     <owners>ygxxii</owners>
     <title>Nutstore</title>
@@ -16,7 +16,7 @@
     <tags>sync cloud storage synchronization webdav</tags>
     <summary>A cloud storage service</summary>
     <description>
-Nutstore is a cloud storage service that lets you access your photos, videos, and documents anywhere and anytime. After you install Nutstore on your computer, any file you save to your Nutstore will automatically synchronize to all your Mac, PC and the Nutstore website. WebDAV protocol is well supported。
+Nutstore is a cloud storage service that lets you access your photos, videos, and documents anywhere and anytime. After you install Nutstore on your computer, any file you save to your Nutstore will automatically synchronize to all your Mac, PC and the Nutstore website. WebDAV protocol is well supported.
 
 Initiative feature, Favorite Folder, is designed for offline access. All files in the favorite folder will be updated from LAN desktop client, fast and automatically. Then You can access these favorite files anywhere even without network.
 
