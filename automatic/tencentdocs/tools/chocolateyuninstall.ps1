@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+﻿1$ErrorActionPreference = 'Stop'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $ahkFile = Join-Path $toolsDir 'chocolateyuninstall.ahk'
