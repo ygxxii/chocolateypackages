@@ -10,9 +10,9 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName   = 'WizNoteLite-*'
-  checksum      = 'a1cdf66cd2bfd9820cbd220d27ed2a96f2a1b77db06abe0be98bda91f8b69582'
+  checksum      = '74f4985bfe227a5096862e587ef18451b462c224f660f1327d855cec4d681fcc'
   checksumType  = 'sha256'
-  checksum64    = '424a2c46edf8f581e06a035164296dc4028fbfbf15972c2e197d40df76813665'
+  checksum64    = 'ddf244ae20ccb97cb696937417d3af0d0c7d6dd2a090a07654a4c0537e2b1b4e'
   checksumType64= 'sha256'
 
   silentArgs    = "/allusers /S"
