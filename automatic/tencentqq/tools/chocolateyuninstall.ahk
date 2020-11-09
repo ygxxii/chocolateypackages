@@ -6,5 +6,5 @@ WinWait %winTitle%, , 60
 if (hWnd := WinExist(winTitle))
 {
     WinClose, ahk_id %hWnd%
-    TrayTip, Chocolatey Uninstall, Tencent QQ Uninstalled., 1
+    TrayTip, Chocolatey Uninstall, Tencent QQ Uninstalling., 1
 }
