@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$url = 'https://updatecdn.meeting.qq.com/a6719ed4bfe172b80e4af07698e3a0a1/TencentMeeting_0300000000_1.9.0.448.publish.exe'
+$url = 'https://updatecdn.meeting.qq.com/2b6b631f401075bc21c9169cc9baea83/TencentMeeting_0300000000_2.1.1.432.publish.exe'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
   url            = $url
   softwareName   = 'TencentMeeting_*'
-  checksum       = 'b62a54854c9a7b322dde3e2d98bbb50ea870b769f7015e31f2a8c5fc5f0cf64e'
+  checksum       = '74a0fbe2a9e6779a7cb4e03502f89a9702cd6335c3d3958619ab8dc7359494ae'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
