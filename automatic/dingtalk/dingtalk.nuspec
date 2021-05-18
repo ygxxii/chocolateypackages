@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dingtalk</id>
-    <version>5.1.33.13</version>
+    <version>6.0.15.5171263</version>
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
-    <owners>ygxxii</owners>
+    <owners>ygxxii anjia0532</owners>
     <title>DingTalk</title>
     <authors>Alibaba Group</authors>
     <projectUrl>https://www.dingtalk.com/en</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ygxxii/chocolateypackages@master/icons/dingtalk.svg</iconUrl>
-    <copyright>Copyright Notice © 1999-2020 Alibaba Group Holding Limited and/or its affiliates and licensors. All rights reserved.</copyright>
+    <copyright>Copyright Notice © 1999-2021 Alibaba Group Holding Limited and/or its affiliates and licensors. All rights reserved.</copyright>
     <licenseUrl>https://page.dingtalk.com/wow/dingtalk/act/service-en-lite</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://notes.dingtalk.com/p/Y7kmby3lP40KXLq2/docs/Y7kmb7olePn0KGLq</docsUrl>
