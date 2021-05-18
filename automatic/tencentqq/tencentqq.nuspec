@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tencentqq</id>
-    <version>9.3.9.27427</version>
+    <version>9.4.7.27805</version>
     <packageSourceUrl>https://github.com/ygxxii/chocolateypackages</packageSourceUrl>
-    <owners>ygxxii</owners>
+    <owners>ygxxii anjia0532</owners>
     <title>QQ</title>
     <authors>Tencent</authors>
     <projectUrl>https://im.qq.com/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/ygxxii/chocolateypackages/c53b3cea14a02f569fea0529f8661ab994b8524d/icons/Tencent_QQ.svg</iconUrl>
-    <copyright>Copyright © 1998 - 2020 Tencent. All Rights Reserved.</copyright>
+    <copyright>Copyright © 1998 - 2021 Tencent. All Rights Reserved.</copyright>
     <licenseUrl>http://ti.qq.com/agreement/index.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://wiki.open.qq.com/wiki/</docsUrl>
